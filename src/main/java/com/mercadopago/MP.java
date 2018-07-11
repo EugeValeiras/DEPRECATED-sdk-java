@@ -673,6 +673,7 @@ public class MP {
 			WebResource resource = client.resource(resourceUrl);
 			Builder req = resource.type(contentType).accept("application/json");
 			req.header("User-Agent", "MercadoPago Java SDK v"+MP.version);
+			req.header("x-product-id", "BC32BQJU643001OI397G");
 			return req;
 		}
 	}
