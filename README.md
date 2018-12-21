@@ -1,9 +1,21 @@
 # MercadoPago SDK module for Payments integration
 
+* [Dependencies](#dependencies)
 * [Install](#install)
 * [Basic checkout](#basic-checkout)
 * [Customized checkout](#custom-checkout)
 * [Generic methods](#generic-methods)
+
+<a name="dependencies"></a>
+## Dependencies
+
+* [Jettison](https://github.com/jettison-json/jettison) v1.3.3
+* [Lang](https://commons.apache.org/proper/commons-lang/) v2.6
+* [Jersey](https://jersey.github.io/) v1.18.1
+* [HTTPComponents](https://hc.apache.org/) v4.3.3
+
+For testing:
+* [JUnit](https://junit.org/junit4/) v4.12
 
 <a name="install"></a>
 ## Install
